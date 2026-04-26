@@ -2265,6 +2265,14 @@ html[dir="rtl"] .main-title::after {
   left: -30px;
 }
 
+html[dir="rtl"] .main-title:hover::before {
+  animation: right-move 0.5s linear forwards;
+}
+
+html[dir="rtl"] .main-title:hover::after {
+  animation: left-move 0.5s linear forwards;
+}
+
 /* Language Switcher */
 .lang-switch {
   background-color: var(--main-color);
